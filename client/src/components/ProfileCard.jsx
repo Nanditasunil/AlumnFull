@@ -85,17 +85,7 @@ const ProfileCard = ({ user }) => {
             </span>
           </div>
         </div>
-        <div className="w-full flex flex-col gap-4 py-4 pb-6">
-          <p className="text-ascent-1 text-lg font-semibold">Social Profile</p>
-          <div className="flex gap-2 items-center text-ascent-2">
-            <BsInstagram className="text-xl text-ascent-1" />
-            <span>Instagram</span>
-          </div>
-          <div className="flex gap-2 items-center text-ascent-2">
-            <FaTwitterSquare className="text-xl text-ascent-1" />
-            <span>Twitter</span>
-          </div>
-        </div>
+        
       </div>
     </div>
   );
