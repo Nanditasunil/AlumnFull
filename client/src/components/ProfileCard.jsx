@@ -68,7 +68,7 @@ const ProfileCard = ({ user }) => {
         </div>
         <div className="w-full flex flex-col gap-2 py-4 border-b border-[#66666645]">
           <p className="text-xl text-ascent-1 font-semibold">
-            {user?.friends?.length} Friends
+            {user?.friends?.length} Mates
           </p>
 
           <div className="flex items-center justify-between ">
