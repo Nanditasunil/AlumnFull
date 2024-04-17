@@ -176,6 +176,7 @@ const PostCard = ({ post, user, deletePost, likePost }) => {
             className="w-14 h-14 object-cover rounded-full"
           />
         </Link>
+        
 
         <div className="w-full flex justify-between ">
           <div className="">
@@ -311,7 +312,7 @@ const PostCard = ({ post, user, deletePost, likePost }) => {
                         <BiSolidLike size={20} color="purple" />
                       ) : (
                         <BiLike size={20} />
-                      )}
+                      )}y
                       {comment?.likes?.length} Likes
                     </p>
                     <span
